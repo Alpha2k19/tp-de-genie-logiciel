@@ -37,7 +37,7 @@ public class TestAbstract {
             }
 
             // Création et insertion du premier étudiant
-            Person s1 = new Student(1, "Jean", "Shabani", "sdfusd233");
+            Person s1 = new Student(1, "Byenda", "Muhindo", "sdfcdfd233");
             int result3 = s1.add(s1);
             if (result3 > 0) {
                 System.out.println("✅ Student 1 inserted successfully!");
@@ -46,7 +46,7 @@ public class TestAbstract {
             }
 
             // Création et insertion du deuxième étudiant
-            Person s2 = new Student(2, "DFFJI", "Ndeze", "DFGSF843765TSREGF");
+            Person s2 = new Student(2, "David", "Ndeze", "DFGSFefeeTSREGF");
             int result4 = s2.add(s2);
             if (result4 > 0) {
                 System.out.println("✅ Student 2 inserted successfully!");
